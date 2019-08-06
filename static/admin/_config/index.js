@@ -1,4 +1,4 @@
-const languageList = ["en", "cn"]
+const languageList = ["en", "de"]
 
 const generatePageConfig = (fileDirectory, label, name, fields) => {
   return languageList.map(langKey => ({

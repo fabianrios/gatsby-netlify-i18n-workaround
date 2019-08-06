@@ -41,14 +41,14 @@ const Header = ({ siteTitle }) => (
         EN
       </Link>
       <Link
-        to="/cn/"
+        to="/de/"
         style={{
           color: `white`,
           textDecoration: `none`,
           marginLeft: 10,
         }}
       >
-        CN
+        DE
       </Link>
     </div>
   </header>

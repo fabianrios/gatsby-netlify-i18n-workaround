@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Frist Blog
+title: First Blog
 description: "This is the first blog."
 tags: ["gatsby", "blog"]
 date: 2019-04-17T08:00+08:00

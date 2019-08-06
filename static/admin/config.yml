@@ -1,6 +1,7 @@
 {
   "backend": {
-    "name": "test-repo"
+    "name": "test-repo",
+    "branch": master,
   },
   "media_folder": "static/assets",
   "public_folder": "assets",
@@ -47,11 +48,11 @@
       ]
     },
     {
-      "name": "blog-cn",
-      "label": "Blog (CN)",
+      "name": "blog-de",
+      "label": "Blog (DE)",
       "folder": "src/pages/blog/",
       "create": true,
-      "extension": "cn.md",
+      "extension": "de.md",
       "format": "frontmatter",
       "fields": [
         {
@@ -126,9 +127,9 @@
           ]
         },
         {
-          "file": "src/pages/index.cn.md",
-          "label": "Home Page (CN)",
-          "name": "index-cn",
+          "file": "src/pages/index.de.md",
+          "label": "Home Page (DE)",
+          "name": "index-de",
           "fields": [
             {
               "label": "Metadata",
@@ -189,9 +190,9 @@
           ]
         },
         {
-          "file": "src/pages/about/index.cn.md",
-          "label": "About Page (CN)",
-          "name": "about-cn",
+          "file": "src/pages/about/index.de.md",
+          "label": "About Page (DE)",
+          "name": "about-de",
           "fields": [
             {
               "label": "Metadata",
