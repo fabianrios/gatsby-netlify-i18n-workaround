@@ -5,7 +5,7 @@ export const HTMLContent = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
 )
 
-const Content = ({ content, className }) => (
+export const Content = ({ content, className }) => (
   <div className={className}>{content}</div>
 )
 
